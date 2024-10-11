@@ -1,0 +1,12 @@
+ragenv/
+__pycache__/
+.DS_Store
+.idea/
+
+data/
+chroma*/
+.venv/
+
+playground.py
+notebook.ipynb
+TODO.txt
