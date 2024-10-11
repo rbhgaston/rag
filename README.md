@@ -1,12 +1,12 @@
 # RAG Retrieval Augmented Generation
-## let ai search your files and get a global response
+## let ai search your files and get you answers for your questions
 
 1. Clone the repo
 2. Create your virtual env
 3. install depenacies from requiremenets.txt
 
 Then you have two options:
-# Terminal interface
+### Terminal interface
 First open create_db.py file and change the DATA_PATH and CHROMA_PATH.
 You can change the embeddings too.
 Pay attention to seq length when changing the embeddings model.
@@ -17,15 +17,15 @@ It accepts only pdf files.
 
 Run main.py after specifying the query to the llm.
 
-# Streamlit interface
+### Streamlit interface
 run streamlit run app.py
 
 
 
-# FEATURES
+### FEATURES
 you can have many chunk sizes
 
-## COMMENTS
+### COMMENTS
 db.similarity_search_with_relevance_scores gives better results that other similiraties functions.
 
 Importance of prompting also: giving clear and concise instructions yields the best results.
